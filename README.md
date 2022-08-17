@@ -11,7 +11,7 @@ AMEO 2015 has gained traction since its public release. Aspiring Minds annually 
 The dataset consists of shape belonging to 3998 rows and 39 columns.
 The dataset consists of 27 numerical , 10 categorical and 2 datetime attributes . The ‘Salary’ attribute is used as the target variable.
 
-# Data preperocessing steps and EDA :
+# Data preprocessing steps and EDA :
 There are null values present in the dataset which are present in columns ‘Job City’, ‘10board’, ‘12board’ that are hidden either in form of  0 or -1.
 The  categorical columns includes ‘Designation’, ‘Job City’, ‘10board’, ‘12board’  consist of lot of sub-categories that were rendered with specific categories. 
 With the columns ‘DOJ’ and ‘DOL’ we have evaluated the new column as ‘Experience’.
