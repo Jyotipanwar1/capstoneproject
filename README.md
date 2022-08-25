@@ -24,7 +24,7 @@ After the pre-processing steps we done some observations on numerical and catego
 * 1- denotes percentage >80 i.e. First Division.
 * for Age column ,We have converted the date of birth into age by using 31 dec 2015 as present date and for College State ,There were 26 states that has been bifurcated to Zones. Majority of employees have done there Grads from North-Indian states.
 
-
+# Feature Engineering
 Creating YOE (years of experience feature using DOJ & DOL adn Creating AGE feature using DOB feature anddate at which the data was collected i.e. 31-12-2015 .
 Creating “Subject Total” feature using the sum of subject marks of the candidate and then scaled it.
 
