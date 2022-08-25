@@ -18,11 +18,11 @@ The  categorical columns includes ‘Designation’, ‘Job City’, ‘10board�
 With the columns ‘DOJ’ and ‘DOL’ we have evaluated the new column as ‘Experience’.
 -1 present in the dataset (excluding ‘Job City’ ) represents student haven’t appeared for the examination.
 After the pre-processing steps we done some observations on numerical and categorical columns like 
-*Designation :There were 160 different designations ,Approx. 53% of them belongs to engineering field,17% developers, 10% Analyst.
- For 10th and 12th percentage We classified the percentage under the universal divisions:
-4- denotes percentage less than 50 i.e. Fourth Division,3- denotes percentage >50 and <=65 i.e. Third Division ,2- denotes percentage >65 and <=80 i.e. second Division
-1- denotes percentage >80 i.e. First Division.
-for Age column ,We have converted the date of birth into age by using 31 dec 2015 as present date and for College State ,There were 26 states that has been bifurcated to Zones. Majority of employees have done there Grads from North-Indian states.
+* Designation :There were 160 different designations ,Approx. 53% of them belongs to engineering field,17% developers, 10% Analyst.
+ * For 10th and 12th percentage We classified the percentage under the universal divisions:
+* 4- denotes percentage less than 50 i.e. Fourth Division,3- denotes percentage >50 and <=65 i.e. Third Division ,2- denotes percentage >65 and <=80 i.e. second Division
+* 1- denotes percentage >80 i.e. First Division.
+* for Age column ,We have converted the date of birth into age by using 31 dec 2015 as present date and for College State ,There were 26 states that has been bifurcated to Zones. Majority of employees have done there Grads from North-Indian states.
 
 # Feature Engineering
 Creating YOE (years of experience feature using DOJ & DOL adn Creating AGE feature using DOB feature anddate at which the data was collected i.e. 31-12-2015 .
