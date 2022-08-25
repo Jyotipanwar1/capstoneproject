@@ -7,7 +7,8 @@ AMEO 2015 has gained traction since its public release. Aspiring Minds annually 
 # DATA DESCRIPTION
  
 The dataset consists of 27 numerical , 10 categorical and 2 datetime attributes . The ‘Salary’ attribute is used as the target variable.
-
+For every engineer, AMEO dataset provides anonymized bio data information along with their respective skill scores and employment outcome information. Specifically, the following information is available for every engineer: 
+ 
 # Data preprocessing steps and EDA :
 There are null values present in the dataset which are present in columns ‘Job City’, ‘10board’, ‘12board’ that are hidden either in form of  0 or -1.
 The  categorical columns includes ‘Designation’, ‘Job City’, ‘10board’, ‘12board’  consist of lot of sub-categories that were rendered with specific categories. 
