@@ -5,10 +5,7 @@ Given a new student profile, can we predict the salary of the engineer based on 
 AMEO 2015 has gained traction since its public release. Aspiring Minds annually publishes the National Employability Report, a data-driven commentary on graduates and their employability. A recent NER was based on an extension of this dataset. It was also analyzed as part of two data challenges - at ASSESS 2015, a workshop on data-driven assessments held at ICDM 2015 and at IKDD CODS 2016. As part of the challenge, researchers from industry and academia predicted annual salaries of engineering graduates. The challenge also had them interpret the factors determining salaries and had them visualize the dataset to infer insights. The dataset has a variety of input formats, including semi-structured text in the form of job titles, making it a rich instructional tool which students and professionals can readily relate to and learn from. It can also be used to teach quantitative social science methods.
 
 # DATA DESCRIPTION
- For every engineer, AMEO dataset provides anonymized bio data information along with their respective skill scores and employment outcome information. Specifically, the following information is available for every engineer: 
- Personal information like gender and date of birth.  Pre-university information like 10th and 12th grade marks, board of education and 12th grade graduation year. 
- University information like GPA, college major, college reputation proxy, graduation year and college location. 
-The dataset consists of shape belonging to 3998 rows and 39 columns.
+ 
 The dataset consists of 27 numerical , 10 categorical and 2 datetime attributes . The ‘Salary’ attribute is used as the target variable.
 
 # Data preprocessing steps and EDA :
